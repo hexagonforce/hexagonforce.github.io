@@ -1,0 +1,25 @@
+---
+---
+@import "typography";
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+}
+#mainContainer {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+#mainNavigation{
+  width: 60rem;
+  margin: 0 auto;
+}
+
+.nav-header {
+  background-color: #08f;
+}
+p {
+  line-height: 1.6em;
+}
