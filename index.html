@@ -1,0 +1,60 @@
+---
+layout: page
+---
+
+<h1 class="text-center">HSY's World</h1>
+<div class="text-center">
+    Programming, Kpop, English, <em>... and a bunch of other things</em>
+</div>
+<hr />
+<div class="row gx-5">
+    <div class="col-md-8 mb-3">
+        <h2 class="mb-3">Latest Articles</h2>
+        {% for post in site.posts limit:5%}
+        <div class="card mb-3">
+            <div class="card-body">
+                <a href="{{ post.url }}" class="stretched-link"
+                    ><h5 class="card-title">{{ post.title }}</h5></a
+                >
+                <p class="card-text">{{ post.excerpt }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-4 sticky-md-top">
+        <h3>About this website:</h3>
+        <p>
+            Hi, glad to see you here. I'm Hyeong&nbsp;Seon and I like to write
+            about programming, K-pop, and English.
+        </p>
+        <p>
+            This website was made with the principles of
+            <a href="http://motherfuckingwebsite.com/">this website</a> with a
+            few sensible modifications and modern accessiblility support
+            provided by <a href="https://getbootstrap.com">Bootstrap</a>.
+        </p>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-12 mb-3">
+        <h2 class="text-center">Things that I support</h2>
+        <h3>STAR Voting</h3>
+        <p>
+            <a href="https://www.starvoting.org/">STAR Voting</a> is an
+            alternative voting method that allows all citizens to vote their
+            conscience and still get results that are closest to the aggregate
+            vote of the citizens. It is an extension of
+            <a href="https://www.rangevoting.org">Range Voting</a> that makes
+            good compromises to answer common criticisms against Range Voting
+            (such as the Unknown Lunatic nightmare).
+        </p>
+
+        <h3>Free and Open-Source Software</h3>
+        <p>
+            The world depends on Free and Open-Source Software (FOSS), and it is
+            the only software that completely respects our privacy and gives
+            <it>us</it> all control of our own data. Learn more about FOSS in
+        </p>
+    </div>
+</div>

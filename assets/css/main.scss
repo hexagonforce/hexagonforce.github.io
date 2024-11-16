@@ -1,24 +1,25 @@
 ---
 ---
 @import "typography";
+@import "colors";
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
-
+  background-color: $bg-color;
 }
 #mainContainer {
-  width: 60rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
 #mainNavigation{
-  width: 60rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
 .nav-header {
-  background-color: #08f;
+  background-color: $accent-color;
 }
 p {
   line-height: 1.6em;
