@@ -19,5 +19,5 @@ E-mail: sylvesteryoo at naver dot com
 Resume: [Click Me!][resume]
 
 [ateneo]: https://ateneo.edu
-[resume]: assets/documents/resume_en.pdf
+[resume]: /assets/documents/resume_en.pdf
 [packet-core]: https://www.ericsson.com/en/core-network/5g-core
