@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<h1>Archives</h1>
+<ul class="list-unstyled">
+    {% assign posts_by_year = site.posts | group_by_exp : "item", "item.date | date: '%Y'" %}
+    {% for posts_group in posts_by_year %}
+    <h3 class="mb-3"> {{ posts_group.name }}</h3>
+        <ul class="list-unstyled">
+        {% for post in posts_group.items %}
+                <li><a href="{{ post.url }}" class="fs-4 text-decoration-none">
+                    <span>{{ post.title }}</span></a>
+                <span class="ms-3 text-body-secondary">{{ post.date | date: "%b %d, %Y"}}</span></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</ul>

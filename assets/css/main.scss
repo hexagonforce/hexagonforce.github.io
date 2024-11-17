@@ -1,0 +1,26 @@
+---
+---
+@import "typography";
+@import "colors";
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $bg-color;
+}
+#mainContainer {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+#mainNavigation{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.nav-header {
+  background-color: $accent-color;
+}
+p {
+  line-height: 1.6em;
+}
