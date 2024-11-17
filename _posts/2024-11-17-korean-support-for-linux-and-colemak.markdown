@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "How to use Colemak and Korean for Linux"
-date:   2024-11-16 09:20:00 +0900
+date:   2024-11-17 10:00:00 +0900
 categories: linux korean
-summary: Find out how to seamlessly use Colemak and Korean in Linux.
+summary: Find out how to seamlessly use the English Colemak Layout and Korean Hangul in Linux.
 ---
 
 ## Instructions
@@ -18,8 +18,8 @@ fcitx5. You can check this by running `fcitx5-diagnose` in the terminal.
 
 1. Run the following command:
 
-```
-localectl set-x11-keymap us pc104 colemak korean:ralt_hangul,korean:rctrl_hanja
+``` bash
+> localectl set-x11-keymap us pc104 colemak korean:ralt_hangul,korean:rctrl_hanja
 ```
 
 This assumes that you have a standard keyboard layout with a Right Alt and Right
