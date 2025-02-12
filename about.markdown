@@ -6,11 +6,19 @@ permalink: /about/
 
 # About
 
-I'm Hyeong Seon Yoo, a software developer from Korea. I studied Computer Science in [Ateneo de Manila University][ateneo], Philppines. I enjoy programming of all sorts: data structures and algorithms, AWS, Databases, and most importantly, Networking (Software-defined Networking, Mobile Networks) and Linux. Right now, I'm working for [Ericsson-LG](https://ericsson.com), and I'm working on [5G Packet Core][packet-core].
+I'm Hyeong Seon Yoo, a software developer from Korea. I studied Computer Science
+in [Ateneo de Manila University][ateneo], Philppines. I enjoy programming of all
+sorts: data structures and algorithms, AWS, Databases, and most importantly,
+Networking (Software-defined Networking, Mobile Networks) and Linux. Right now,
+I'm working for [Ericsson-LG](https://ericsson.com), and I'm working on [5G
+Packet Core][packet-core].
 
-When I'm not programming, I usually play the guitar, listen to music, or speedsolve Rubik's cubes. I also read a lot about society, philosophy, and religion.
+When I'm not programming, I usually play the guitar, listen to music, or
+speedsolve Rubik's cubes. I also read a lot about society, philosophy, and
+religion.
 
-I'm a huge K-pop fan. My favorites have been f(x), Rainbow, Apink, GFRIEND, Lovelyz, OH MY GIRL, WJSN, LOONA, and fromis\_9, Billlie, and tripleS.
+I'm a huge K-pop fan. My favorites have been f(x), Rainbow, Apink, GFRIEND,
+Lovelyz, OH MY GIRL, WJSN, LOONA, and fromis\_9, Billlie, and tripleS.
 
 Github: <https://github.com/hexagonforce>
 
