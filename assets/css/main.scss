@@ -1,26 +1,52 @@
 ---
 ---
+
 @import "typography";
 @import "colors";
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $bg-color;
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $bg-color;
+    min-height: 100vh;
 }
 #mainContainer {
-  max-width: 60rem;
-  margin: 0 auto;
+    max-width: 50rem;
+    margin: 0 auto;
+    min-height: 100vh;
 }
-
-#mainNavigation{
-  max-width: 60rem;
-  margin: 0 auto;
+#mainNavigation {
+    max-width: 50rem;
+    margin: 0 auto;
 }
-
 .nav-header {
-  background-color: $accent-color;
+    background-color: $accent-color;
 }
 p {
-  line-height: 1.6em;
+    line-height: 1.6em;
+}
+
+.recent-posts-container {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+.recent-posts-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.recent-posts-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.recent-posts-container .post-date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.post-content {
+    flex: 1;
 }

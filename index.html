@@ -2,14 +2,12 @@
 layout: page
 ---
 
-<h1 class="text-center">HSY's World</h1>
-<div class="text-center">
-    Programming, Kpop, English, <em>... and a bunch of other things</em>
-</div>
+<h1>HSY's World</h1>
+<div>Programming, Kpop, English, <em>... and a bunch of other things</em></div>
 <hr />
 <div class="row gx-5">
-    <div class="col-md-8 mb-3">
-        <h2 class="mb-3">Latest Articles</h2>
+    <div class="col-md-12 mb-3">
+        <h2 class="mb-3 text-center">Latest Articles</h2>
         {% for post in site.posts limit:5%}
         <div class="card mb-3">
             <div class="card-body">
@@ -21,11 +19,14 @@ layout: page
         </div>
         {% endfor %}
     </div>
-    <div class="col-md-4">
-        <h3>About this website:</h3>
+</div>
+<hr />
+<div class="row gx-5">
+    <div class="col-md-12 mb-3">
+        <h2 class="text-center">About this website</h2>
         <p>
             Hi, glad to see you here. I'm Hyeong&nbsp;Seon and I like to write
-            about programming, K-pop, and English.
+            about programming, K-pop, and languages.
         </p>
         <p>
             This website was made with the principles of
