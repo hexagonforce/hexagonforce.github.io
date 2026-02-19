@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h1>Archives</h1>
+<h1>Blog</h1><br/>
 <ul class="list-unstyled">
     {% assign posts_by_year = site.posts | group_by_exp : "item", "item.date |
     date: '%Y'" %} {% for posts_group in posts_by_year %}

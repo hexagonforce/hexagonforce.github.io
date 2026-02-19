@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Fira Sans
-- Font Author: Digitized data copyright 2012-2016, The Mozilla Foundation and Telefonica S.A.
-- Font Source: http://fonts.gstatic.com/s/firasans/v17/va9E4kDNxMZdWfMOD5VfkILKSTbndQ.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+- Font Title: Noto Sans KR
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/notosanskr/v37/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLTq8H4hfeE.ttf
+- Font License: undefined)

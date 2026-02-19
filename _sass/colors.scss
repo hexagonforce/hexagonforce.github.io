@@ -1,3 +1,6 @@
 $primary-color: #333;
-$accent-color: rgb(0, 112, 211);
+$accent-color: rgb(187, 154, 247);
+$nav-color: darken($accent-color, 5%);
+$link-color: darken($accent-color, 10%);
+$visited-link-color: darken($accent-color, 20%);
 $bg-color: #f8f8f8;

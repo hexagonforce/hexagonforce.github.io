@@ -10,22 +10,24 @@ body {
     background-color: $bg-color;
     min-height: 100vh;
 }
-#mainContainer {
-    max-width: 50rem;
-    margin: 0 auto;
-    min-height: 100vh;
-}
-#mainNavigation {
-    max-width: 50rem;
-    margin: 0 auto;
-}
-.nav-header {
-    background-color: $accent-color;
-}
 p {
     line-height: 1.6em;
 }
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+a:visited {
+  color: $visited-link-color;
+}
+a:hover {
+  color: $visited-link-color;
+  text-decoration: underline;
+}
 
+.nav-header {
+    background-color: $nav-color;
+}
 .recent-posts-container {
     width: 100%;
     background: white;
@@ -46,7 +48,17 @@ p {
     font-size: 0.9em;
     color: gray;
 }
-
 .post-content {
     flex: 1;
 }
+
+#mainContainer {
+    max-width: 45rem;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+#mainNavigation {
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
