@@ -13,4 +13,3 @@ jobs:
           globs: |
             about.markdown
             _posts/*.markdown
-            _drafts/*.markdown
