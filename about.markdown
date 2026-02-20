@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
 # About
 
-I'm Hyeong Seon Yoo, a software developer from Korea. I studied Computer Science
-in [Ateneo de Manila University][ateneo], Philppines. I enjoy programming of all
-sorts: data structures and algorithms, AWS, Databases, and most importantly,
-Networking (Software-defined Networking, Mobile Networks) and Linux. Right now,
-I'm working for [Ericsson-LG](https://ericsson.com), and I'm working on [5G
+I'm Hyeong Seon Yoo, a software developer from Korea. I studied Computer
+Science in [Ateneo de Manila University][ateneo], Philppines. I enjoy
+programming of all sorts: data structures and algorithms, AWS, Databases, and
+most importantly, Networking (Software-defined Networking, Mobile Networks) and
+Linux. Right now, I'm working for [Ericsson][Ericsson], and I'm working on [5G
 Packet Core][packet-core].
 
 When I'm not programming, I usually play the guitar, listen to music, or
@@ -27,5 +26,6 @@ E-mail: sylvesteryoo at naver dot com
 Resume: [Click Me!][resume]
 
 [ateneo]: https://ateneo.edu
-[resume]: https://github.com/hexagonforce/resume/releases/latest/download/resume_en.pdf
+[ericsson]: https://ericsson.com
 [packet-core]: https://www.ericsson.com/en/core-network/5g-core
+[resume]: https://github.com/hexagonforce/resume/releases/latest/download/resume_en.pdf

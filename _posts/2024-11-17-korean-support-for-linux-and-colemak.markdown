@@ -9,12 +9,14 @@ summary: Find out how to seamlessly use the English Colemak Layout and Korean Ha
 ## Instructions
 
 This assumes you have installed the following:
+
 - localectl
 - fcitx5 and fcitx5-hangul
 - fcitx5-configtool
 
-This also assumes that you have set the necessary environment variables to properly use
-fcitx5. You can check this by running `fcitx5-diagnose` in the terminal.
+This also assumes that you have set the necessary environment variables to
+properly use fcitx5. You can check this by running `fcitx5-diagnose` in the
+terminal.
 
 1. Run the following command:
 
