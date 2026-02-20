@@ -1,0 +1,15 @@
+name: Markdown Linting
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DavidAnson/markdownlint-cli2-action@v2
+        with: 
+          globs: |
+            about.markdown
+            _posts/*.markdown
