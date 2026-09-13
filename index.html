@@ -8,16 +8,17 @@ layout: page
 <div class="row">
     <div class="col-md-12 mb-3">
         <h2 class="mb-3 text-center">Latest Articles</h2>
+        <div class="card border bg-light mb-1">
         {% for post in site.posts limit:5%}
-        <div class="card mb-3">
             <div class="card-body">
-                <a href="{{ post.url }}" class="stretched-link"
-                    ><h5 class="card-title">{{ post.title }}</h5></a
-                >
-                <p class="card-text">{{ post.summary }}</p>
+                <a href="{{ post.url }}">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                </a>
+                <h6 class="card-subtitle text-muted">{{ post.date | date: "%b %d, %Y" }}</h6>
+                <p class="card-text mt-1">{{ post.summary }}</p>
             </div>
-        </div>
         {% endfor %}
+        </div>
     </div>
 </div>
 <hr />
@@ -40,7 +41,6 @@ layout: page
 <div class="row">
     <div class="col-md-12 mb-3">
         <h2 class="text-center">Things that I support</h2>
-        <br />
         <h3>STAR Voting</h3>
         <p>
             <a href="https://www.starvoting.org/">STAR Voting</a> is an
@@ -51,17 +51,12 @@ layout: page
             good compromises to answer common criticisms against Range Voting
             (such as the Unknown Lunatic nightmare).
         </p>
-
         <h3>Free and Open-Source Software</h3>
         <p>
             The world depends on Free and Open-Source Software (FOSS), and it is
             the only software that completely respects our privacy and gives
-            <it>us</it> all control of our own data. Learn more about amazing
-            FOSS projects
-            <a
-                href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages"
-                >here.</a
-            >
+            us all control of our own data. Learn more about amazing
+            FOSS projects <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages">here.</a>
         </p>
     </div>
 </div>
