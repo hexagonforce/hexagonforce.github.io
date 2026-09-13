@@ -5,6 +5,8 @@ permalink: /about/
 
 # About
 
+---
+
 I'm Hyeong Seon Yoo, a software developer from Korea. I studied Computer
 Science in [Ateneo de Manila University][ateneo], Philppines. I enjoy
 programming of all sorts: data structures and algorithms, AWS, Databases, and
